@@ -8,7 +8,7 @@ Cevap: PHP Veri Nesneleri (PDO), çeşitli veritabanlarına erişim için olduk�
 Soru 2: DB Index nedir? Avantajları ve dezavantajları nelerdir?
 
 Cevap: İndex sorguları hızlandırmak için kullanılan bir özelliktir. Indeksleme kullanarak tablonun tamamını okumaktansa oluşturacağımız indeks key i aracılığı ile okumak istediğimiz kayıda ulaşabilmemiz daha hızlı bir şekilde mümkün olacaktır. 
-Avantajları: Veritabanında veriler çok fazla olduğunda performans açısından düşüklüğe yol açmaktadır. Karmaşık bir yapıda olan verilerde istenilen bilgili bulmak tablo taranır. Bu işlem küçük tablolarda yapmak oldukça basittir. Tablonuzda sürekli olarak yeni veriler geliyorsa tablo taraması yapmak size vakit kaybettireceğinden dolayı index yapısı kullanılarak verilere daha hızlı erişim imkanı sunmaktadır.
+<br>Avantajları: Veritabanında veriler çok fazla olduğunda performans açısından düşüklüğe yol açmaktadır. Karmaşık bir yapıda olan verilerde istenilen bilgili bulmak tablo taranır. Bu işlem küçük tablolarda yapmak oldukça basittir. Tablonuzda sürekli olarak yeni veriler geliyorsa tablo taraması yapmak size vakit kaybettireceğinden dolayı index yapısı kullanılarak verilere daha hızlı erişim imkanı sunmaktadır.
 Dezavantajları: Veri tabanına her ekleme (insert), güncelleme (update) ve silme (delete) işlemlerinden sonra index yapısı yeniden inşa edilmektedir. Yeniden inşa edileceğinden dikkat etmemiz gereken hususlar
 1. Fazla kullanılmayan sütunlar için index oluşturmamalıyız.
 2. Gerekmedikçe index oluşturmamalıyız.
